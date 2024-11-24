@@ -1,3 +1,5 @@
+import apiKey from './key.js';
+
 document.getElementById('search-input').addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         performSearch();
@@ -7,8 +9,7 @@ document.getElementById('search-input').addEventListener('keydown', function(eve
 async function performSearch() {
     const searchQuery = document.getElementById('search-input').value;
     const combinedQuery = `${searchQuery} DIYs`;
-    const ykey = 'AIzaSyCBoeF8cJ5zPUCiWZ3ninnsy-4LRzf8xpE';
-    const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${encodeURIComponent(combinedQuery)}&key=${ykey}`;
+    const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${encodeURIComponent(combinedQuery)}&key=${apiKey}`;
 
     try {
         const response = await fetch(url);

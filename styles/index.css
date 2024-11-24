@@ -86,3 +86,14 @@ button:hover {
 .rounded {
     padding: 3px;
 }
+#home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+}

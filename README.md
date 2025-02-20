@@ -30,5 +30,3 @@ If time permits, I would like to work on the following features:
 - [Fonts](https://fonts.google.com/)
 - [Icons](https://icons.getbootstrap.com/)
 - [Pictures](https://www.flaticon.com/)
-
-#### Dated 24 November 2024
